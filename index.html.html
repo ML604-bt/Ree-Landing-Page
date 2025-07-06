@@ -1,0 +1,134 @@
+# Revised HTML content for REE landing page, incorporating only general mineral benefits (not direct health claims).
+updated_html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REE Taste</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7fdfb;
+      color: #043927;
+    }
+    header {
+      background: #e9f5ef;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      max-width: 180px;
+      height: auto;
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 1rem 0 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #1e4d2b;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
+    }
+    section h2 {
+      font-size: 1.5rem;
+      color: #1e4d2b;
+    }
+    .mineral-list {
+      background: #edfdf7;
+      padding: 1rem;
+      border-left: 4px solid #1e4d2b;
+      margin: 1rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e0f7ec;
+      font-size: 0.9rem;
+    }
+    iframe {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/yxzKljn.png" alt="REE Bottle" />
+    <h1>REE Taste</h1>
+    <p>Pure Beyond Time. Water from 4,200 Years Ago.</p>
+    <a href="#about" class="button">Taste the Origin</a>
+  </header>
+
+  <section id="about">
+    <h2>Why Does REE Taste Different?</h2>
+    <p>REE is sourced from pristine, untouched Himalayan springs of Bhutan and has been carbon-dated to be over 4,200 years old. Its naturally preserved mineral profile gives it a subtly earthy and full-bodied taste.</p>
+  </section>
+
+  <section>
+    <h2>REE’s Mineral Composition</h2>
+    <p>REE retains its natural minerals through gentle purification — no synthetic additives or artificial processes.</p>
+    <div class="mineral-list">
+      <ul>
+        <li><strong>pH (7.5–8.0):</strong> Naturally alkaline — often considered gentle on the stomach.</li>
+        <li><strong>Calcium (Ca²⁺):</strong> Known to support bone structure and muscle function.</li>
+        <li><strong>Magnesium (Mg²⁺):</strong> Commonly associated with energy production and nerve function.</li>
+        <li><strong>Bicarbonates (HCO₃⁻):</strong> Help regulate pH balance in water and may aid digestion.</li>
+        <li><strong>Sodium (Na⁺) & Potassium (K⁺):</strong> Naturally occurring electrolytes important for hydration.</li>
+        <li><strong>Total Dissolved Solids (TDS):</strong> 510–580 mg/L – a sign of rich mineral content.</li>
+      </ul>
+    </div>
+    <p><em>Note: These minerals are naturally occurring in REE due to geological filtration through Himalayan rock layers.</em></p>
+  </section>
+
+  <section>
+    <h2>How REE Gets Its Minerals</h2>
+    <p>As water travels underground through mineral-rich layers, it slowly absorbs essential elements like calcium, magnesium, and bicarbonates — resulting in its signature taste and mineral balance.</p>
+  </section>
+
+  <section>
+    <h2>Have Questions or Feedback?</h2>
+    <p>Our team would love to hear from you. Drop your thoughts below.</p>
+  </section>
+
+  <footer>
+    © 2025 REE Mineral Water | Bhutan | Carbon-Dated Natural Source | All rights reserved.
+  </footer>
+
+  <!-- Floating comment box -->
+  <iframe src="https://script.google.com/macros/s/AKfycby17IinxlYtui9uncMSj9_maMsu6w1KE3CQJXHmUlHajlGN88Rg4CuTwU5VkeCT0n-YMQ/exec">
+    Your browser does not support iframes.
+  </iframe>
+</body>
+</html>
+"""
+
+# Save to file
+updated_file_path = "/mnt/data/ree-landing-page-updated.html"
+with open(updated_file_path, "w", encoding="utf-8") as file:
+    file.write(updated_html_content)
+
+updated_file_path
